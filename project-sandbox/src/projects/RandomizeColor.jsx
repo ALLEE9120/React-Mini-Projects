@@ -21,7 +21,7 @@ export default function RandomizeColor() {
       <Title text="Randomize Color" />
       <div className="buttons">
         <Button text="Click Me" onChange={(e) => handleClick(e)}/>
-        <Button text="ME TOOOO!" onChange={(e) => handleClick(e)}/>
+        <Button text="ME TOOO!" onChange={(e) => handleClick(e)}/>
         <Button text="ME THREEE!" onChange={(e) => handleClick(e)} />
         </div>
     </div>
