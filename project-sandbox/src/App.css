@@ -106,3 +106,20 @@ body {
   padding: 10px;
   margin-bottom: 20px;
 }
+
+.btn {
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.btn:hover {
+  background-color: #321e41;
+}
