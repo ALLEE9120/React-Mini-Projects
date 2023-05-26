@@ -1,7 +1,7 @@
 import React from 'react'
 import {AiOutlineComment, AiFillHeart, AiOutlineHeart } from 'react-icons/ai';
 
-export default function Footer({like, onLike}) {
+export default function Footer({like, onLike, number}) {
   return (
     <div className='footer'>
       <div className='footer-buttons'>
@@ -9,7 +9,7 @@ export default function Footer({like, onLike}) {
         <button className='btn heart' onClick={onLike}>{ like ? <AiFillHeart className='like' /> : <AiOutlineHeart/>}</button>
       </div>
       <div className='footer-likes'>
-        <p>1,000 likes</p>
+        <p>{number.toLocaleString()} likes</p>
       </div>
     </div>
   )
