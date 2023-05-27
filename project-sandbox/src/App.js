@@ -3,6 +3,7 @@ import EsignatureApp from './projects/EsignatureApp'
 import RandomizeColor from './projects/RandomizeColor';
 import Like from './projects/Like';
 import Alert from './projects/Alert';
+import Forum from './projects/Forum';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
 
       {/* <Like /> */}
 
-      <Alert />
+      <Forum />
     </div>
   );
 }

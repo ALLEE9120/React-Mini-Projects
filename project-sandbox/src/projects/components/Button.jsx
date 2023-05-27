@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function Button({text, color, onChange}) {
+export default function Button({text, color, onChange, icon, classes}) {
   return (
-    <button className={"btn"} style={{backgroundColor: color}} onClick={onChange}>{text ? text : "Button" }</button>
+    <button onClick={onChange} className={`${classes} btn`} style={{backgroundColor: color}}>{icon} {text ? text : "Button" }</button>
   )
 }
