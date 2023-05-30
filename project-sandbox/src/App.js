@@ -5,6 +5,8 @@ import Like from './projects/Like';
 import AlertApp from './projects/AlertApp';
 import Forum from './projects/Forum';
 import Temperature from './projects/Temperature';
+import DarkMode from './projects/DarkMode';
+
 
 function App() {
   return (
@@ -19,7 +21,10 @@ function App() {
 
       {/* <AlertApp /> */}
 
-      <Temperature />
+      {/* <Temperature /> */}
+
+      <DarkMode />
+
     </div>
   );
 }

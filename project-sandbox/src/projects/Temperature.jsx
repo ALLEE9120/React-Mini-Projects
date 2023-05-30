@@ -9,12 +9,10 @@ export default function Temperature() {
 
   function handleMinus() {
     setTemp(temp - 1)
-    console.log(temp)
   }
 
   function handlePlus() {
     setTemp(temp + 1)
-    console.log(temp)
   }
 
   const getBackgroundColor = () => {
