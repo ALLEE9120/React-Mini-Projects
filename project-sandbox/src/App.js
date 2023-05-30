@@ -4,6 +4,7 @@ import RandomizeColor from './projects/RandomizeColor';
 import Like from './projects/Like';
 import AlertApp from './projects/AlertApp';
 import Forum from './projects/Forum';
+import Temperature from './projects/Temperature';
 
 function App() {
   return (
@@ -16,7 +17,9 @@ function App() {
 
       {/* <Forum /> */}
 
-      <AlertApp />
+      {/* <AlertApp /> */}
+
+      <Temperature />
     </div>
   );
 }
