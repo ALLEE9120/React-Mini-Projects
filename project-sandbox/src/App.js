@@ -6,6 +6,7 @@ import AlertApp from './projects/AlertApp';
 import Forum from './projects/Forum';
 import Temperature from './projects/Temperature';
 import DarkMode from './projects/DarkMode';
+import Swipe from './projects/Swipe';
 
 
 function App() {
@@ -23,7 +24,9 @@ function App() {
 
       {/* <Temperature /> */}
 
-      <DarkMode />
+      {/* <DarkMode /> */}
+
+      <Swipe />
 
     </div>
   );
