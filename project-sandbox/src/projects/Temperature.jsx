@@ -20,13 +20,13 @@ export default function Temperature() {
   const getBackgroundColor = () => {
     // Define your temperature range and corresponding colors here
     const colorRange = [
-      { temp: -10, color: '#1034A6' },
-      { temp: 0, color: '#412F88' },
-      { temp: 10, color: '#722B6A' },
-      { temp: 17, color: '#A2264B' },
-      { temp: 26, color: '#D3212D' },
-      { temp: 30, color: '#F62D2D' },
-      { temp: 55, color: '#F62D2D' },
+      { temp: -10, color: '#003399' },
+      { temp: 0, color: '#0099FF' },
+      { temp: 10, color: '#99CCFF' },
+      { temp: 17, color: '#FFFF99' },
+      { temp: 26, color: '#FFCC66' },
+      { temp: 30, color: '#FF6600' },
+      { temp: 55, color: '#FF0000' },
     ];
 
 
