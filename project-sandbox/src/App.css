@@ -412,3 +412,14 @@ body {
   font-size: 25px;
   margin: 0px;
 }
+
+.lock {
+  position: absolute;
+  top: 330px;
+  left: 38%;
+  background-color: #ffb413;
+  height: 60px;
+  width: 60px;
+  color: #ffe9bb;
+  font-size: 30px;
+}

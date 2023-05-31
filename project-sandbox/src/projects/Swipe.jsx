@@ -1,6 +1,8 @@
 import React from 'react'
 import SwipeLock from './components/SwipeLock'
 import { useState, useEffect } from 'react'
+// imprt lock icon
+import { FaLock } from 'react-icons/fa'
 
 export default function Swipe() {
   const [sliderValue, setSliderValue] = useState(0)
@@ -34,7 +36,7 @@ export default function Swipe() {
       <div className='iphone__header'>
         <div className='iphone__header__camera'></div>
         <div className='iphone__time'><p style={{fontSize: "55px", overflowY: "hidden"}}>UNLOCKED</p></div>
-        <button onClick={handleLock}>Lock</button>
+        <button className="btn lock"onClick={handleLock}><FaLock /></button>
         </div>
         </div>}
 
