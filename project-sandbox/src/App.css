@@ -438,3 +438,7 @@ body {
   color: #856c8a;
   opacity: 1;
 }
+
+.HiddenSearch {
+  height: 100vh;
+}
