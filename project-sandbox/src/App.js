@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import './App.css';
 import EsignatureApp from './projects/EsignatureApp'
 import RandomizeColor from './projects/RandomizeColor';
@@ -10,6 +11,7 @@ import Swipe from './projects/Swipe';
 import Slider from './projects/slider/Slider'
 import HiddenSearchBarApp from './projects/HiddenSearchBar/HiddenSearchBarApp';
 import PopUp from './projects/PopUp/PopUp';
+import ProgressBar from './projects/ProgressBar/ProgressBar';
 
 
 function App() {
@@ -35,7 +37,9 @@ function App() {
 
       {/* <HiddenSearchBarApp /> */}
 
-      <PopUp />
+      {/* <PopUp /> */}
+
+      <ProgressBar />
 
     </div>
   );
