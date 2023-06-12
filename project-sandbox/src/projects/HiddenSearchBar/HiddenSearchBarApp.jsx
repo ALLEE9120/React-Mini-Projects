@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import { BsSearch } from "react-icons/bs"
 
 export default function HiddenSearchBarApp() {
-  const [search, setSearch] = useState(false)
   const [uiProps, setUiProps] = useState({
     backgroundColor: "#1a1a1a",
     transitions: "all 0.5s ease-in-out",
@@ -12,13 +11,6 @@ export default function HiddenSearchBarApp() {
   })
 
   let body = document.body.style
-
-  const handleSearch = () => {
-    setUiProps({
-      opacity: 1,
-      showSearchIcon: false
-    })
-  };
 
   const handleClickIcon = () => {
     setUiProps({ showSearchIcon: false });
@@ -67,6 +59,7 @@ export default function HiddenSearchBarApp() {
     body.transition = uiProps.transitions
     // body.opacity = uiProps.opacity
     body.boxShadow = uiProps.shadow
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [uiProps.shadow])
 
 
