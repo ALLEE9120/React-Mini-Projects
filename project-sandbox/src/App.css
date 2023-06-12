@@ -442,3 +442,38 @@ body {
 .HiddenSearch {
   height: 100vh;
 }
+
+.Popup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 400px;
+  border-radius: 10px;
+  color: #680000;
+  background-color: #ef7b7b;
+  border: 1px solid #cb0000;
+  margin-top: 20px;
+  transition: 1s all ease-in-out;
+}
+.textPop {
+  display: end;
+}
+
+.Popup button {
+  height: 30px;
+  width: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #680000;
+}

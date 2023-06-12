@@ -9,6 +9,7 @@ import DarkMode from './projects/DarkMode';
 import Swipe from './projects/Swipe';
 import Slider from './projects/slider/Slider'
 import HiddenSearchBarApp from './projects/HiddenSearchBar/HiddenSearchBarApp';
+import PopUp from './projects/PopUp/PopUp';
 
 
 function App() {
@@ -32,7 +33,9 @@ function App() {
 
       {/* <Slider /> */}
 
-      <HiddenSearchBarApp />
+      {/* <HiddenSearchBarApp /> */}
+
+      <PopUp />
 
     </div>
   );
